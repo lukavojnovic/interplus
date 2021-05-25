@@ -1,0 +1,19 @@
+{
+  "cardArray": [
+
+    {
+      "alt": "borovnica",
+      "title": "Borovnica",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, quisquam voluptatibus? Ad asperiores autem commodi consectetur consequatur doloremque esse, exercitationem, ipsa iusto natus placeat provident ratione recusandae, sed unde voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cum cupiditate rem. Aperiam delectus illo in iusto laudantium magni nesciunt perferendis sed sit! Dolore dolorem eaque provident quis temporibus velit.",
+      "src": "../images/card-blueberry.jpg",
+      "name": "card-blueberry.jpg"
+    },
+    {
+      "alt": "sipak",
+      "title": "Sipak",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, quisquam voluptatibus? Ad asperiores autem commodi consectetur consequatur doloremque esse, exercitationem, ipsa iusto natus placeat provident ratione recusandae, sed unde voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cum cupiditate rem. Aperiam delectus illo in iusto laudantium magni nesciunt perferendis sed sit! Dolore dolorem eaque provident quis temporibus velit.",
+      "src": "../images/card-rosehip.JPG",
+      "name": "card-rosehip.JPG"
+    }
+  ]
+}

@@ -3,10 +3,37 @@ html {
   scroll-behavior: smooth;
 }
 
+h1, h2, h3, h4, h5 {
+  font-size: revert ;
+  font-weight: revert ;
+}
+
 .custom-container{
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
+}
+
+.insideJumbo{
+  position: relative;
+}
+
+#jumbo{
+  position: relative;
+}
+
+#jumbo::before{
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-image: url("../../static/blueberry-pattern.png");
+  filter: grayscale(100%);
+}
+
+#jumbo::after{
+  content: "";
+  border-bottom: 1px aqua solid ;
 }
 
 .font-logo{

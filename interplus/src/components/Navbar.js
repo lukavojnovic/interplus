@@ -14,7 +14,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between h-16">
               <div className="w-full justify-between flex items-center">
                 <a className="flex-shrink-0" href="/">
-                  <span className='font-logo text-indigo-600 hover:text-blue-500'>INTER PLUS d.o.o</span>
+                  <span className='font-logo text-indigo-600 hover:text-blue-500'>INTER PLUS</span>
                 </a>
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-4">
@@ -22,25 +22,37 @@ export default function Navbar() {
                       className={`text-gray-500 hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium`}
                       to="/"
                     >
-                      Home
+                      Pocetna
                     </Link>
                     <Link
                       className={`text-gray-500 hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium`}
                       to="/about"
                     >
-                      About
+                      O nama
+                    </Link>
+                    <Link
+                      className={`text-gray-500 hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium`}
+                      to="/borovnica"
+                    >
+                      Borovnica
+                    </Link>
+                    <Link
+                      className={`text-gray-500 hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md font-medium`}
+                      to="/sipak"
+                    >
+                      Sipak
                     </Link>
                     <Link
                       className="text-gray-500  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md  font-medium"
                       to="/gallery"
                     >
-                      Gallery
+                      Galerija
                     </Link>
                     <Link
                       className="text-gray-500  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-md  font-medium"
                       to="/contact"
                     >
-                      Contact
+                      Kontakt
                     </Link>
                   </div>
                 </div>
@@ -66,25 +78,37 @@ export default function Navbar() {
                 className="text-gray-500 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 to="/"
               >
-                Home
+                Pocetna
               </Link>
               <Link
                 className="text-gray-500 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 to="/about"
               >
-                About
+                O Nama
+              </Link>
+              <Link
+                className="text-gray-500 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                to="/borovnica"
+              >
+                Borovnica
+              </Link>
+              <Link
+                className="text-gray-500 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                to="/sipak"
+              >
+                Sipak
               </Link>
               <Link
                 className="text-gray-500 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 to="/gallery"
               >
-                Gallery
+                Galerija
               </Link>
               <Link
                 className="text-gray-500 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 to="/contact"
               >
-                Contact
+                Kontakt
               </Link>
             </div>
           </div>

@@ -11,12 +11,28 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    {
+    `gatsby-transformer-remark`,
+
+  {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images/`,
-      },
+        path: `${__dirname}/src/images/`
+      }
     },
-  ],
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `card-images`,
+        path: `${__dirname}/src/images/card-images`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `template-pages`,
+        path: `${__dirname}/src/template-pages`
+      }
+    }
+  ]
 }
